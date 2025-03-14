@@ -24,12 +24,14 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Overview',
+        collapsed: false,
         items: [
           { text: 'Introduction', link: '/Overview/Introduction' }
         ]
       },
       {
         text: 'Competition',
+        collapsed: false,
         items: [
           { text: 'Overview', link: '/Competition/Competition-Overview' },
           { text: 'ILO 2024', link: '' },
@@ -56,6 +58,7 @@ export default defineConfig({
       },
       {
         text: 'Tool Tutorials',
+        collapsed: false,
         items: [
           {text: 'Overview', link: '/Tool-Tutorials/Tool-Tutorials-Overview'},
           {text: 'Babbage', link: ''},
@@ -86,6 +89,7 @@ export default defineConfig({
       },
       {
         text: 'Extra Resources',
+        collapsed: false,
         items: [
           { text: 'Overview', link: '/Extra-Resources/Extra-Resources-Overview' }
         ]
