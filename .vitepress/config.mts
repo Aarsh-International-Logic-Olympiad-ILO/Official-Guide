@@ -34,17 +34,18 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Overview', link: '/Competition/Competition-Overview' },
-          { text: 'ILO 2024', link: '' },
           {
+            text: 'ILO 2024',
+            collapsed: false, // This ensures ILO 2024 remains expanded
             items: [
-              {text: 'Overview', link: '/Competition/ILO-2024/ILO-2024-Overview'},
-              {text: 'Round 1', link: '/Competition/ILO-2024/ILO-2024-Test-1-Problems'},
-              {text: 'Round 2', link: '/Competition/ILO-2024/ILO-2024-Test-2-Problems'},
-              {text: 'Round 3', link: '/Competition/ILO-2024/ILO-2024-Test-3-Problems'},
-              {text: 'Finals', link: '/Competition/ILO-2024/ILO-2024-Finals-Problems'}
+              { text: 'Overview', link: '/Competition/ILO-2024/ILO-2024-Overview' },
+              { text: 'Round 1', link: '/Competition/ILO-2024/ILO-2024-Test-1-Problems' },
+              { text: 'Round 2', link: '/Competition/ILO-2024/ILO-2024-Test-2-Problems' },
+              { text: 'Round 3', link: '/Competition/ILO-2024/ILO-2024-Test-3-Problems' },
+              { text: 'Finals', link: '/Competition/ILO-2024/ILO-2024-Finals-Problems' }
             ]
           },
-          { text: 'ILO 2025', link: '' },
+          { text: 'ILO 2025', link: '', collapsed: false  },
           {
             items: [
               {text: 'Overview', link: '/Competition/ILO-2025/ILO-2025-Overview'},
@@ -61,25 +62,25 @@ export default defineConfig({
         collapsed: false,
         items: [
           {text: 'Overview', link: '/Tool-Tutorials/Tool-Tutorials-Overview'},
-          {text: 'Babbage', link: ''},
+          {text: 'Babbage', link: '', collapsed: false },
           {
             items: [
               {text: 'Overview', link: '/Tool-Tutorials/Babbage/Babbage-Overview'}
             ]
           },
-          {text: 'Fitch', link: ''},
+          {text: 'Fitch', link: '', collapsed: false },
           {
             items: [
               {text: 'Overview', link: '/Tool-Tutorials/Fitch/Fitch-Overview'}
             ]
           },
-          {text: 'Hilbert', link: ''},
+          {text: 'Hilbert', link: '', collapsed: false },
           {
             items: [
               {text: 'Overview', link: '/Tool-Tutorials/Hilbert/Hilbert-Overview'}
             ]
           },
-          {text: 'Robinson', link: ''},
+          {text: 'Robinson', link: '', collapsed: false },
           {
             items: [
               {text: 'Overview', link: '/Tool-Tutorials/Robinson/Robinson-Overview'}
