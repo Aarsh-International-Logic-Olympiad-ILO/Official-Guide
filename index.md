@@ -8,18 +8,26 @@ hero:
   tagline: Enjoy the logic!
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Overview
+      link: /Overview/Introduction
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Competition
+      link: /Competition/Competition-Overview
+    - theme: alt
+      text: Tool Tutorials
+      link: /Tool-Tutorials/Tool-Tutorials-Overview
+    - theme: alt
+      text: Extra Resources
+      link: /Extra-Resources/Extra-Resources-Overview
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Competition Overview
+    details: Learn about the International Logic Olympiad and its structure.
+  - title: Problems + Solutions
+    details: Access problems and solutions from past ILO's (and the current one happening as well).
+  - title: Tool Tutorials
+    details: Learn how to use tools like the Fitch-style proof editor to improve your logic skills.
+  - title: Extra Resources
+    details: Find additional resources to help you prepare for the ILO.
 ---
 
