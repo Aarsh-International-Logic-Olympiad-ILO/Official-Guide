@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Aarsh's ILO Guide"
   text: "Tips for the ILO"
-  tagline: My great project tagline
+  tagline: Enjoy the logic!
   actions:
     - theme: brand
       text: Markdown Examples
