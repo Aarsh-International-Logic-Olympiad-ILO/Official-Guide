@@ -35,21 +35,21 @@ export default defineConfig({
           { text: 'ILO 2024', link: '' },
           {
             items: [
-              {text: 'Overview', link: '/ILO-2024/ILO-2024-Overview'},
-              {text: 'Round 1', link: '/ILO-2024/ILO-2024-Test-1-Problems'},
-              {text: 'Round 2', link: '/ILO-2024/ILO-2024-Test-2-Problems'},
-              {text: 'Round 3', link: '/ILO-2024/ILO-2024-Test-3-Problems'},
-              {text: 'Finals', link: '/ILO-2024/ILO-2024-Finals-Problems'}
+              {text: 'Overview', link: '/Competition/ILO-2024/ILO-2024-Overview'},
+              {text: 'Round 1', link: '/Competition/ILO-2024/ILO-2024-Test-1-Problems'},
+              {text: 'Round 2', link: '/Competition/ILO-2024/ILO-2024-Test-2-Problems'},
+              {text: 'Round 3', link: '/Competition/ILO-2024/ILO-2024-Test-3-Problems'},
+              {text: 'Finals', link: '/Competition/ILO-2024/ILO-2024-Finals-Problems'}
             ]
           },
           { text: 'ILO 2025', link: '' },
           {
             items: [
-              {text: 'Overview', link: '/ILO-2025/ILO-2025-Overview'},
-              {text: 'Round 1', link: '/ILO-2025/ILO-2025-Test-1-Problems'},
-              {text: 'Round 2', link: '/ILO-2025/ILO-2025-Test-2-Problems'},
-              {text: 'Round 3', link: '/ILO-2025/ILO-2025-Test-3-Problems'},
-              {text: 'Finals', link: '/ILO-2025/ILO-2025-Finals-Problems'},
+              {text: 'Overview', link: '/Competition/ILO-2025/ILO-2025-Overview'},
+              {text: 'Round 1', link: '/Competition/ILO-2025/ILO-2025-Test-1-Problems'},
+              {text: 'Round 2', link: '/Competition/ILO-2025/ILO-2025-Test-2-Problems'},
+              {text: 'Round 3', link: '/Competition/ILO-2025/ILO-2025-Test-3-Problems'},
+              {text: 'Finals', link: '/Competition/ILO-2025/ILO-2025-Finals-Problems'},
             ]
           }
         ]
