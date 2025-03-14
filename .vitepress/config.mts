@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Aarsh's ILO Guide",
   description: "Tips for the ILO",
+  base: '/Official-Guide/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
