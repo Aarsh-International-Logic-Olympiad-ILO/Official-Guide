@@ -38,6 +38,7 @@ For this problem, these are the truth tables for each statement in descending or
 | F | T | F | T  | F      | T     | T                  |
 | F | F | T | T  | F      | T     | T                  |
 | F | F | F | T  | F      | F     | T                  |
+
 ✅ **Always True → Valid**
 
 ### Truth Table for (p ⇒ (q ⇒ r)) ⇒ ((p ⇒ q) ⇒ (q ⇒ r))
@@ -52,6 +53,7 @@ For this problem, these are the truth tables for each statement in descending or
 | 0 | 1 | 0 | 0     | 1     | 1           | 1                 | 0                                   |
 | 0 | 0 | 1 | 1     | 1     | 1           | 1                 | 1                                   |
 | 0 | 0 | 0 | 1     | 1     | 1           | 1                 | 1                                   |
+
 ⚠ **Not Always True → Contingent**
 
 ### Truth Table for (p ∨ q) ⇒ (p ∧ q)
@@ -62,6 +64,7 @@ For this problem, these are the truth tables for each statement in descending or
 | T | F | T     | F     | F                 |
 | F | T | T     | F     | F                 |
 | F | F | F     | F     | T                 |
+
 ⚠ **Not Always True → Contingent**
 
 ### Truth Table for (p ⇒ q) ⇒ ¬(p ⇒ ¬q)
@@ -72,6 +75,7 @@ For this problem, these are the truth tables for each statement in descending or
 | T | F | T  | F     | T      | F         | T                   |
 | F | T | F  | T     | T      | F         | F                   |
 | F | F | T  | T     | T      | F         | F                   |
+
 ⚠ **Not Always True → Contingent**
 
 ### Truth Table for (p ⇒ ¬p) ∨ (¬p ⇒ p)
@@ -80,6 +84,7 @@ For this problem, these are the truth tables for each statement in descending or
 |---|----|--------|--------|---------------------|
 | T | F  | F      | T      | T                   |
 | F | T  | T      | F      | T                   |
+
 ✅ **Always True → Valid**
 
 ## Problem 2
