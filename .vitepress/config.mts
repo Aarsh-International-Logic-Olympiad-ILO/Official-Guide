@@ -36,7 +36,7 @@ export default defineConfig({
           { text: 'Overview', link: '/Competition/Competition-Overview' },
           {
             text: 'ILO 2024',
-            collapsed: false, // This ensures ILO 2024 remains expanded
+            collapsed: false,
             items: [
               { text: 'Overview', link: '/Competition/ILO-2024/ILO-2024-Overview' },
               { text: 'Round 1', link: '/Competition/ILO-2024/ILO-2024-Test-1-Problems' },
@@ -45,14 +45,15 @@ export default defineConfig({
               { text: 'Finals', link: '/Competition/ILO-2024/ILO-2024-Finals-Problems' }
             ]
           },
-          { text: 'ILO 2025', link: '', collapsed: false  },
           {
+            text: 'ILO 2025',
+            collapsed: false,
             items: [
-              {text: 'Overview', link: '/Competition/ILO-2025/ILO-2025-Overview'},
-              {text: 'Round 1', link: '/Competition/ILO-2025/ILO-2025-Test-1-Problems'},
-              {text: 'Round 2', link: '/Competition/ILO-2025/ILO-2025-Test-2-Problems'},
-              {text: 'Round 3', link: '/Competition/ILO-2025/ILO-2025-Test-3-Problems'},
-              {text: 'Finals', link: '/Competition/ILO-2025/ILO-2025-Finals-Problems'},
+              { text: 'Overview', link: '/Competition/ILO-2025/ILO-2025-Overview' },
+              { text: 'Round 1', link: '/Competition/ILO-2025/ILO-2025-Test-1-Problems' },
+              { text: 'Round 2', link: '/Competition/ILO-2025/ILO-2025-Test-2-Problems' },
+              { text: 'Round 3', link: '/Competition/ILO-2025/ILO-2025-Test-3-Problems' },
+              { text: 'Finals', link: '/Competition/ILO-2025/ILO-2025-Finals-Problems' }
             ]
           }
         ]
@@ -61,29 +62,33 @@ export default defineConfig({
         text: 'Tool Tutorials',
         collapsed: false,
         items: [
-          {text: 'Overview', link: '/Tool-Tutorials/Tool-Tutorials-Overview'},
-          {text: 'Babbage', link: '', collapsed: false },
+          { text: 'Overview', link: '/Tool-Tutorials/Tool-Tutorials-Overview' },
           {
+            text: 'Babbage',
+            collapsed: false,
             items: [
-              {text: 'Overview', link: '/Tool-Tutorials/Babbage/Babbage-Overview'}
+              { text: 'Overview', link: '/Tool-Tutorials/Babbage/Babbage-Overview' }
             ]
           },
-          {text: 'Fitch', link: '', collapsed: false },
           {
+            text: 'Fitch',
+            collapsed: false,
             items: [
-              {text: 'Overview', link: '/Tool-Tutorials/Fitch/Fitch-Overview'}
+              { text: 'Overview', link: '/Tool-Tutorials/Fitch/Fitch-Overview' }
             ]
           },
-          {text: 'Hilbert', link: '', collapsed: false },
           {
+            text: 'Hilbert',
+            collapsed: false,
             items: [
-              {text: 'Overview', link: '/Tool-Tutorials/Hilbert/Hilbert-Overview'}
+              { text: 'Overview', link: '/Tool-Tutorials/Hilbert/Hilbert-Overview' }
             ]
           },
-          {text: 'Robinson', link: '', collapsed: false },
           {
+            text: 'Robinson',
+            collapsed: false,
             items: [
-              {text: 'Overview', link: '/Tool-Tutorials/Robinson/Robinson-Overview'}
+              { text: 'Overview', link: '/Tool-Tutorials/Robinson/Robinson-Overview' }
             ]
           }
         ]
