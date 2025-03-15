@@ -63,9 +63,9 @@ For each question, select the correct multiple-choice answer.
 
 ## Problem 4
 
-Complete the **following fitch proof:** by inserting the correct logical steps:
+Complete the **following fitch proof** by inserting the correct logical steps:
 ![img_1.png](img_1.png)
 
 ## Problem 5
-Complete the **following fitch proof:** by inserting the correct logical steps:
+Complete the **following fitch proof** by inserting the correct logical steps:
 ![img.png](img.png)
