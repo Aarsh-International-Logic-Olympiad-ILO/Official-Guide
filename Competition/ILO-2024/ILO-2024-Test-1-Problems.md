@@ -15,7 +15,72 @@ Determine whether each logical statement is **valid** or **contingent**:
 | (p ⇒ q) ⇒ ¬(p ⇒ ¬q)                 | ⚠️ **Contingent** |
 | (p ⇒ ¬p) ∨ (¬p ⇒ p)                 | ✅ **Valid**       |
 
+As a reminder, ```Valid``` means that the statement is true for all possible truth assignments of the variables. 
+On the other hand, ```Contingent``` means that the statement is true for at least one truth assignment and false for 
+at least one truth assignment of the variables.
 
+The best way to determine whether a statement is valid or contingent is to create a truth table for the statement. 
+While time-consuming, it basically guarantees that you will get the correct answer,
+as well as visualizes the truth values 
+which may make it easier to understand each statement. 
+
+For this problem, these are the truth tables for each statement in descending order:
+
+### Truth Table for (p ∧ ¬p) ⇒ (q ∨ r)
+
+| p | q | r | ¬p | p ∧ ¬p | q ∨ r | (p ∧ ¬p) ⇒ (q ∨ r) |
+|---|---|---|----|--------|-------|--------------------|
+| T | T | T | F  | F      | T     | T                  |
+| T | T | F | F  | F      | T     | T                  |
+| T | F | T | F  | F      | T     | T                  |
+| T | F | F | F  | F      | F     | T                  |
+| F | T | T | T  | F      | T     | T                  |
+| F | T | F | T  | F      | T     | T                  |
+| F | F | T | T  | F      | T     | T                  |
+| F | F | F | T  | F      | F     | T                  |
+✅ **Always True → Valid**
+
+### Truth Table for (p ⇒ (q ⇒ r)) ⇒ ((p ⇒ q) ⇒ (q ⇒ r))
+
+| p | q | r | q ⇒ r | p ⇒ q | p ⇒ (q ⇒ r) | (p ⇒ q) ⇒ (q ⇒ r) | (p ⇒ (q ⇒ r)) ⇒ ((p ⇒ q) ⇒ (q ⇒ r)) |
+|---|---|---|-------|-------|-------------|-------------------|-------------------------------------|
+| 1 | 1 | 1 | 1     | 1     | 1           | 1                 | 1                                   |
+| 1 | 1 | 0 | 0     | 1     | 0           | 1                 | 1                                   |
+| 1 | 0 | 1 | 1     | 0     | 1           | 0                 | 1                                   |
+| 1 | 0 | 0 | 1     | 0     | 1           | 1                 | 1                                   |
+| 0 | 1 | 1 | 1     | 1     | 1           | 1                 | 1                                   |
+| 0 | 1 | 0 | 0     | 1     | 1           | 1                 | 0                                   |
+| 0 | 0 | 1 | 1     | 1     | 1           | 1                 | 1                                   |
+| 0 | 0 | 0 | 1     | 1     | 1           | 1                 | 1                                   |
+⚠ **Not Always True → Contingent**
+
+### Truth Table for (p ∨ q) ⇒ (p ∧ q)
+
+| p | q | p ∨ q | p ∧ q | (p ∨ q) ⇒ (p ∧ q) |
+|---|---|-------|-------|-------------------|
+| T | T | T     | T     | T                 |
+| T | F | T     | F     | F                 |
+| F | T | T     | F     | F                 |
+| F | F | F     | F     | T                 |
+⚠ **Not Always True → Contingent**
+
+### Truth Table for (p ⇒ q) ⇒ ¬(p ⇒ ¬q)
+
+| p | q | ¬q | p ⇒ q | p ⇒ ¬q | ¬(p ⇒ ¬q) | (p ⇒ q) ⇒ ¬(p ⇒ ¬q) |
+|---|---|----|-------|--------|-----------|---------------------|
+| T | T | F  | T     | F      | T         | T                   |
+| T | F | T  | F     | T      | F         | T                   |
+| F | T | F  | T     | T      | F         | F                   |
+| F | F | T  | T     | T      | F         | F                   |
+⚠ **Not Always True → Contingent**
+
+### Truth Table for (p ⇒ ¬p) ∨ (¬p ⇒ p)
+
+| p | ¬p | p ⇒ ¬p | ¬p ⇒ p | (p ⇒ ¬p) ∨ (¬p ⇒ p) |
+|---|----|--------|--------|---------------------|
+| T | F  | F      | T      | T                   |
+| F | T  | T      | F      | T                   |
+✅ **Always True → Valid**
 
 ## Problem 2
 
