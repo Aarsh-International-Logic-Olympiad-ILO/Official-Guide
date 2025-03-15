@@ -20,6 +20,8 @@ Talking to the competitors who were invited to the final round, many of them had
 
 ## Awards
 The structure of the awards was as follows:
+- **Finalist:** Highest scoring teams who were invited to the final round
+- **Semi-Finalist:** Teams who were close to the finalists, and were on a waitlist for the final round
 - **Gold:** Individuals completed the Olympiad and were in the **top 5% of all participants**
 - **Silver:** Individuals completed the Olympiad and were in the **top 10% of all participants**
 - **Honorable Mention:** Individuals completed the Olympiad and were in the **top 15% of all participants**
